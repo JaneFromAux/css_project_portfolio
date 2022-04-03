@@ -6,9 +6,8 @@ font-family: 'Fjalla One', sans-serif;
 font-family: 'Work Sans', sans-serif; 
 ******FONTS********/
 
-/* 
-Farben: #9e9e9e, #fff, #000, #333, #666
- */
+/* *****************
+FARBEN: #9e9e9e, #fff, #000, #333, #666 ******************* */
 
 
 
@@ -31,8 +30,6 @@ html{
 
 header{
     text-align: center;
-    margin-left: auto;
-    margin-left: auto;
     margin-top: 2rem;
 }
 h4{
@@ -41,19 +38,21 @@ h4{
     font-weight: 300;
 }
 header h1{
-    font-size: 10rem;
-    padding: 3rem 38rem 0rem 38rem;
-    font-weight: lighter;
+    font-size: 8rem;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
 }
 header img{
     margin-top: 5rem;
     margin-bottom: 17rem;
+    width: 50%;
 }
 header h2{
     font-size: 15rem;
     padding-bottom: 17rem;
     font-family: 'Work Sans', sans-serif;
-    font-weight:300 ;
+    font-weight: 300;
 }
 
 
@@ -62,12 +61,12 @@ header h2{
 ********************* */
 
 
-main section{
+main section, main div{
     color:#fff;
-    margin-left: 20%;
+    padding-left: 20%;
     padding-top: 8rem;
 }
-main section h4{
+main section h4, main div h4{
     font-size: 2rem;
     margin-bottom: 6rem;
     margin-top: 6rem;
@@ -75,12 +74,19 @@ main section h4{
     font-weight: 300;
     
 }
-main section h2{
+main section h2, main div h2{
     font-size: 12rem;   
     font-family:'Didact Gothic', sans-serif;
     font-weight: lighter;
 
 }
+
+
+/* ********************************* 
+        dive in button white
+********************************* */
+
+
 main section a{
     font-size: 2rem;
     font-family: 'Fjalla One', sans-serif;
@@ -89,6 +95,7 @@ main section a{
     text-decoration: none;
     padding: 1rem 2.5rem;
 }
+
 main section a:hover{
     color: #000;
     border: 1px solid #000;
@@ -96,9 +103,6 @@ main section a:hover{
 }
 main section a:hover + p{
     color: #fff;
-}
-main div:nth-of-type(2) section a:hover + p, main div:nth-of-type(4) section a:hover + p{
-    color: #000;
 }
 main p{
     text-align: right;
@@ -109,41 +113,13 @@ main p{
     margin-bottom: 10rem;
 }
 
-/* *****************************
-        Background-images 
-******************************** */
-
-
-main div, main article{
-    height: 100vh;
-    width: 100%;
-}
-main div:first-child{
-    background:url(../img/portfolio2\ \(1\).jpg) center / cover no-repeat;
-}
-main div:nth-of-type(2) section{
-    background:url(../img/portfolio3.png) center / cover no-repeat;
-    color:#000;
-}
-main div:nth-of-type(3){
-    background:url(../img/portfolio4.jpg) center / cover no-repeat;
-}
-main div:nth-of-type(4) section{
-    background:url(../img/portfolio5.png) center / cover no-repeat;
-    color: #000;
-}
-main article{
-    font-family:'Work Sans', sans-serif;
-    font-weight:300;
-}
-
 
 /* ********************************* 
         dive in button black 
 ************************************ */
 
-main div:nth-of-type(2) section a, main div:nth-of-type(4) section a{
-    color:#000;
+
+main div a{
     font-size: 2rem;
     font-family: 'Fjalla One', sans-serif;
     color: #000;
@@ -151,10 +127,38 @@ main div:nth-of-type(2) section a, main div:nth-of-type(4) section a{
     text-decoration: none;
     padding: 1rem 2.5rem;
 }
-main div:nth-of-type(2) section a:hover, main div:nth-of-type(4) section a:hover{
+main div a:hover{
     color: #fff;
     border: 1px solid #fff;
     background-color: #000;
+}
+main div a:hover + p{
+    color: #000;
+}
+
+
+/* *****************************
+        Background-images 
+******************************** */
+
+
+main div, main section, main article{
+    height: 100vh;
+    width: 100vw;
+}
+main section:first-child{
+    background:url(../img/portfolio2\ \(1\).jpg) center / cover no-repeat;
+}
+main div:nth-of-type(1){
+    background:url(../img/portfolio3.png) center / cover no-repeat;
+    color:#000;
+}
+main section:nth-of-type(2){
+    background:url(../img/portfolio4.jpg) center / cover no-repeat;
+}
+main div:nth-of-type(2){
+    background:url(../img/portfolio5.png) center / cover no-repeat;
+    color: #000;
 }
 
 
@@ -210,3 +214,4 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
+
