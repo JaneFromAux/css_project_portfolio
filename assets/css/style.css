@@ -32,7 +32,7 @@ header{
     text-align: center;
     margin-top: 2rem;
 }
-h4{
+header h4{
     font-size: 1.6rem;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
@@ -78,7 +78,14 @@ main section h2, main div h2{
     font-size: 12rem;   
     font-family:'Didact Gothic', sans-serif;
     font-weight: lighter;
-
+}
+main p{
+    text-align: right;
+    font-size: 16rem;
+    color:rgba(158, 158, 158, 0.5);
+    font-family: 'Fjalla One', sans-serif;
+    margin-right: 9.5rem;
+    margin-bottom: 10rem;
 }
 
 
@@ -103,14 +110,6 @@ main section a:hover{
 }
 main section a:hover + p{
     color: #fff;
-}
-main p{
-    text-align: right;
-    font-size: 16rem;
-    color:rgba(158, 158, 158, 0.5);
-    font-family: 'Fjalla One', sans-serif;
-    margin-right: 9.5rem;
-    margin-bottom: 10rem;
 }
 
 
@@ -138,7 +137,7 @@ main div a:hover + p{
 
 
 /* *****************************
-        Background-images 
+        background-images 
 ******************************** */
 
 
