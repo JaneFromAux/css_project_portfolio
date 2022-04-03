@@ -42,6 +42,8 @@ header h1{
     text-align: center;
     width: 40%;
     margin-left: 30%;
+    margin-top: 6rem;
+    margin-bottom: 2.5rem;
 }
 header img{
     margin-top: 5rem;
@@ -80,13 +82,12 @@ main section h2, main div h2{
     font-family:'Didact Gothic', sans-serif;
     font-weight: lighter;
 }
-main p{
+main section p, main div p{
     text-align: right;
     font-size: 16rem;
     color:rgba(158, 158, 158, 0.5);
     font-family: 'Fjalla One', sans-serif;
-    margin-right: 10%;
-    padding-bottom: 15vh;
+    margin-right: 5%;
 }
 
 
