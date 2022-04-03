@@ -65,17 +65,23 @@ header h2{
 
 main section, main div{
     color:#fff;
-    padding-left: 20%;
+    padding-left: 13%;
     padding-top: 8rem;
     
 }
 main section h4, main div h4{
     font-size: 2rem;
-    margin-bottom: 6rem;
-    margin-top: 6rem;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     
+}
+main section h4:nth-of-type(1), main div h4:nth-of-type(1){
+    margin-top: 3.5rem;
+}
+main section h4:nth-of-type(2), main div h4:nth-of-type(2){
+    padding-bottom: 8rem;
 }
 main section h2, main div h2{
     font-size: 12rem;   
@@ -170,29 +176,31 @@ main div:nth-of-type(2){
 
 article{
     font-family:'Work Sans', sans-serif;
-    font-weight:300;
-    padding: 12rem 11rem;
+    font-weight: 300;
+    /* padding: 12rem 11rem; */
     background:#000;
+    padding: 5%;
 }
 article h3{
     color:#fff;
     font-size: 16rem;
     text-align: center; 
+    font-weight: 300;
 }
 article p{
-    text-align:left;
+    text-align: left;
     color: #666;
     line-height: 4rem;
     font-size: 2rem;
-    margin-left: 47rem;
+    margin-left: 40%;
     margin-top: 10rem;
-    margin-bottom: 3rem;
+    margin-bottom: 8rem;
 }
 article a{
     text-decoration: none;
     color:white;
     font-size: 6rem;
-    margin-left: 47rem;
+    margin-left: 40%;
 }
 article a:hover{
     text-decoration: underline;
@@ -218,5 +226,6 @@ footer a:hover{
 }
 footer img{
     margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
