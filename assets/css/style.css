@@ -65,6 +65,7 @@ main section, main div{
     color:#fff;
     padding-left: 20%;
     padding-top: 8rem;
+    
 }
 main section h4, main div h4{
     font-size: 2rem;
@@ -84,8 +85,8 @@ main p{
     font-size: 16rem;
     color:rgba(158, 158, 158, 0.5);
     font-family: 'Fjalla One', sans-serif;
-    margin-right: 9.5rem;
-    margin-bottom: 10rem;
+    margin-right: 10%;
+    padding-bottom: 15vh;
 }
 
 
@@ -200,11 +201,12 @@ article a:hover{
 /* ******************
         FOOTER
 ********************* */
-
+footer{
+    text-align: center;
+}
 
 footer a{
     display: block;
-    text-align: center;
     text-decoration: none;
     color: #000;
     font-size: 16rem;
@@ -212,5 +214,8 @@ footer a{
 }
 footer a:hover{
     text-decoration: underline;
+}
+footer img{
+    margin-top: 5rem;
 }
 
